@@ -1,5 +1,5 @@
+""" Queries to create, drop, copy and insert data into the tables."""
 import configparser
-
 
 # CONFIG
 config = configparser.ConfigParser()
@@ -329,4 +329,4 @@ insert_table_queries = [
     artist_table_insert,
     time_table_insert,
 ]
-run_queries = [song_most_played, artist_with_more_songs, artists_most_listened]
+queries_analytics = [song_most_played, artist_with_more_songs, artists_most_listened]
